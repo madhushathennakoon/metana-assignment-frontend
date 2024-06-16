@@ -48,7 +48,7 @@ const CardMain = () => {
 
                 <button
                   onClick={() => setCurrentPage("card01")}
-                  className="bg-btnColor hover:bg-btnHoverColor transition duration-300 ease-in-out  text-white text-lg font-bold py-2 px-4 rounded font-Lexend"
+                  className="px-4 py-2 text-lg font-bold text-white transition duration-300 ease-in-out rounded bg-btnColor hover:bg-btnHoverColor font-Lexend"
                 >
                   OK
                 </button>
@@ -88,7 +88,7 @@ const CardMain = () => {
         <img src={logo} alt="Logo" />
       </div>
       {renderPage()}
-      <div className="mb-6 mr-6 fixed bottom-0 right-0  ">
+      <div className="fixed bottom-0 right-0 mb-6 mr-6 ">
         <button>
           <img className="w-12 h-12 " src={up} />
         </button>

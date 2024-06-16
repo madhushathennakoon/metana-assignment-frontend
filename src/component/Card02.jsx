@@ -19,7 +19,7 @@ const Card02 = ({ setThirdPage }) => {
 
           <button
             onClick={() => setThirdPage()}
-            className="bg-btnColor hover:bg-btnHoverColor transition duration-300 ease-in-out  text-white text-lg font-bold py-2 px-4 rounded font-Lexend"
+            className="px-4 py-2 text-lg font-bold text-white transition duration-300 ease-in-out rounded bg-btnColor hover:bg-btnHoverColor font-Lexend"
           >
             OK
           </button>
@@ -30,13 +30,3 @@ const Card02 = ({ setThirdPage }) => {
 };
 
 export default Card02;
-
-{
-  /* <h1>This ia a Card02</h1>
-      <button
-        onClick={() => setThirdPage()}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-      >
-        Next Page card 03
-      </button> */
-}
